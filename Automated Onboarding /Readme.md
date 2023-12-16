@@ -1,5 +1,6 @@
 # Automated Onboarding 
-The automated onboarding project is build using Azure Logic Apps and Microsoft Entra ID connectors. The project automates user creation and assignment during the onboarding phase.
+The automated onboarding project is built using Azure Logic Apps with Microsoft Entra ID connectors.
+The Logic application workflow will receive a HTTP request from onboarding user platforms, extract user information, create the accounts of onboarding users, and send an email to administrators that new users has been created.
 
 # Architecture
 
