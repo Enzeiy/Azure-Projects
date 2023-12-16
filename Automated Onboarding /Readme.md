@@ -43,10 +43,19 @@ The Logic application workflow will receive a HTTP request from onboarding user 
 
  ![HTTP](https://github.com/Enzeiy/Azure-Projects/blob/main/Automated%20Onboarding%20/Images/HTTP_Payload.png)
 
- - Postman API Platform
+- Microsoft Entra ID creator
+    - After the HTTP request trigger, search and add a Microsoft Entra ID, create user connector
+    - Add new parameters such as Job Title, Office Location, and others if applicable
+    - fill-in the necessary parameter using the dynamic content feature.
+
+![ENTRA](https://github.com/Enzeiy/Azure-Projects/blob/main/Automated%20Onboarding%20/Images/Entra.png)
+      
+
+3. Postman API Platform
 
    - Open Postman API platform in your browser, login and create a new collection.
    - set the method to Post, and paste the URL from the HTTP request trigger.
    - access the body tab, configure the data type as raw, and enter the sample payload used in creating the JSON schema in the HTTP request trigger.
 
   ![Postman](https://github.com/Enzeiy/Azure-Projects/blob/main/Automated%20Onboarding%20/Images/Postman.png)
+
