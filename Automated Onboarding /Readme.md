@@ -6,13 +6,29 @@ The Logic application workflow will receive a HTTP request from onboarding user 
 
 ![architecture](https://github.com/Enzeiy/Azure-Projects/blob/main/Automated%20Onboarding%20/Images/OnboardingProjectcpng.png)
 
-#Pre-requisites
+# Pre-requisites
   - Microsoft Azure Account and Subscription
   - Postman API platform Account
   - Outlook Account
 
-#Resources
+# Resources
   - Azure Logic App
   - Azure Microsoft Entra ID
   - Postman API
   - Outlook 
+
+# Procedures
+
+1. Microsoft Entra ID
+   This section allows you to create the necessary requirements such as tenants, users, groups, and assign the proper roles during the onboarding process
+
+   - Create a new tenant in your current azure subscription. The created tenant will be used during the assignment of user principal names.
+   - Create the necessary groups where the onboarded users will be assigned.
+
+2. Logic Application Workflow
+   The logic app workflow will automate the creation of user when is receives a HTTP request from a onboarding platform, after the user creation the workflow will
+   send a welcoming email to the user.
+
+
+   - Create a logic app resource, add a blank logic app workflow
+   - Locate the designer blade, and add a HTTP trigger
