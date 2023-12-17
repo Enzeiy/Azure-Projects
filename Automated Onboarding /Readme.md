@@ -82,5 +82,17 @@ The Logic application workflow will receive a HTTP request from onboarding user 
    - After running the trigger, on the postman api click 'send' to initiate the delivery of the payload.
    - review the workflow and check for any errors
 
-   ![VWORK](
+   ![VWORK](https://github.com/Enzeiy/Azure-Projects/blob/main/Automated%20Onboarding%20/Images/verify_workflow.png)
+
+   - Go to the overview blade of the logic app workflow, and review the run history.
+
+   ![Vover](https://github.com/Enzeiy/Azure-Projects/blob/main/Automated%20Onboarding%20/Images/verify_overview.png)
+
+   - Go to Microsoft Entra ID, locate the group tab, and go to the members blade to verify that the user has been created and has been assign to the right group
+
+   ![VGroup](https://github.com/Enzeiy/Azure-Projects/blob/main/Automated%20Onboarding%20/Images/Verify%20User.png)
+
+   - Login and access the outlook account of the created user, verify that the user has received the welcoming email.
+
+   ![Vmail](https://github.com/Enzeiy/Azure-Projects/blob/main/Automated%20Onboarding%20/Images/Verify_Email.png)
 
