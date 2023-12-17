@@ -1,4 +1,6 @@
 # Automated Onboarding 
+
+
 The automated onboarding project is built using Azure Logic Apps with Microsoft Entra ID connectors.
 The Logic application workflow will receive a HTTP request from onboarding user platforms, extract user information, create the accounts of onboarding users, and send a welcoming email.
 
@@ -20,12 +22,14 @@ The Logic application workflow will receive a HTTP request from onboarding user 
 # Procedures
 
 1. Microsoft Entra ID
+
    This section allows you to create the necessary requirements such as tenants, users, groups, and assign the proper roles during the onboarding process
 
    - Create a new tenant in your current azure subscription. The created tenant will be used during the assignment of user principal names.
    - Create the necessary groups where the onboarded users will be assigned.
 
-2. Logic Application Workflow
+3. Logic Application Workflow
+  
    The logic app workflow will automate the creation of user when is receives a HTTP request from a onboarding platform, after the user creation the workflow will
    send a welcoming email to the user.
 
@@ -67,6 +71,7 @@ The Logic application workflow will receive a HTTP request from onboarding user 
 
     
 3. Postman API Platform
+
    The Postman API platform will simulate the delivery of the payload using an HTTP request to trigger the Azure Logic App workflow.
    
    - Open Postman API platform in your browser, login and create a new collection.
@@ -76,6 +81,7 @@ The Logic application workflow will receive a HTTP request from onboarding user 
   ![Postman](https://github.com/Enzeiy/Azure-Projects/blob/main/Automated%20Onboarding%20/Images/Postman.png)
 
 4. Workflow Verification
+
    This section will be a guide to simulate the automated onboarding workflow using the postman api.
 
    - On your Azure Logic App workflow, locate the workflow designer blade, click the 'run trigger' on the ribbon.
@@ -96,6 +102,7 @@ The Logic application workflow will receive a HTTP request from onboarding user 
 
    ![Vmail](https://github.com/Enzeiy/Azure-Projects/blob/main/Automated%20Onboarding%20/Images/Verify_Email.png)
 
-5. Save
+6. Save
+
    Always remember to review all the resources used and click SAVE :)
 
