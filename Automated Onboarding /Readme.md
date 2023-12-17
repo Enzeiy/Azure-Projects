@@ -51,17 +51,17 @@ The Logic application workflow will receive a HTTP request from onboarding user 
 ![ENTRA](https://github.com/Enzeiy/Azure-Projects/blob/main/Automated%20Onboarding%20/Images/Entra.png)
       
 - Condition Trigger
-  - Add a condition action and set the logic function to AND.
-  - Input the necessary data and operators for the AND function.
-  - Add the 'add user to group' action for both conditions, true or false.
-  - On the 'add user to group' action, provide the unique identifier of both, the group object id and the user id.
+   - Add a condition action and set the logic function to AND.
+   - Input the necessary data and operators for the AND function.
+   - Add the 'add user to group' action for both conditions, true or false.
+   - On the 'add user to group' action, provide the unique identifier of both, the group object id and the user id.
 
 ![CONDITION](https://github.com/Enzeiy/Azure-Projects/blob/main/Automated%20Onboarding%20/Images/Condtion.png)
 
 -Email Connector
-  - connect an email connector at the end of the workflow.
-  - compose the body of your welcoming email, utilize the dynamic content feature to automate the filling in of necessary information of the created user.
-  - use the dynamic content feature to enter the email of the newly created user.
+   - connect an email connector at the end of the workflow.
+   - compose the body of your welcoming email, utilize the dynamic content feature to automate the filling in of necessary information of the created user.
+   - use the dynamic content feature to enter the email of the newly created user.
 
 ![Email](https://github.com/Enzeiy/Azure-Projects/blob/main/Automated%20Onboarding%20/Images/Email.png)
 
