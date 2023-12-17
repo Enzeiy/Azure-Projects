@@ -43,14 +43,22 @@ The Logic application workflow will receive a HTTP request from onboarding user 
 
  ![HTTP](https://github.com/Enzeiy/Azure-Projects/blob/main/Automated%20Onboarding%20/Images/HTTP_Payload.png)
 
-- Microsoft Entra ID creator
+- Microsoft Entra ID connector
     - After the HTTP request trigger, search and add a Microsoft Entra ID, create user connector
     - Add new parameters such as Job Title, Office Location, and others if applicable
     - fill-in the necessary parameter using the dynamic content feature.
 
 ![ENTRA](https://github.com/Enzeiy/Azure-Projects/blob/main/Automated%20Onboarding%20/Images/Entra.png)
       
+- Condition Trigger
+  - Add a condition action and set the logic function to AND.
+  - Input the necessary data and operators for the AND function.
+  - Add the 'add user to group' action for both conditions, true or false.
+  - On the action, provide the unique identifier of both, the group object id and the user id.
 
+![CONDITION](https://github.com/Enzeiy/Azure-Projects/blob/main/Automated%20Onboarding%20/Images/Condtion.png)
+
+    
 3. Postman API Platform
 
    - Open Postman API platform in your browser, login and create a new collection.
