@@ -96,3 +96,6 @@ The Logic application workflow will receive a HTTP request from onboarding user 
 
    ![Vmail](https://github.com/Enzeiy/Azure-Projects/blob/main/Automated%20Onboarding%20/Images/Verify_Email.png)
 
+5. Save
+   Always remember to review all the resources used and click SAVE :)
+
