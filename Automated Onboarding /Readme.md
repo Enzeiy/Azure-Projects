@@ -58,7 +58,7 @@ The Logic application workflow will receive a HTTP request from onboarding user 
 
 ![CONDITION](https://github.com/Enzeiy/Azure-Projects/blob/main/Automated%20Onboarding%20/Images/Condtion.png)
 
--Email Connector
+- Email Connector
    - connect an email connector at the end of the workflow.
    - compose the body of your welcoming email, utilize the dynamic content feature to automate the filling in of necessary information of the created user.
    - use the dynamic content feature to enter the email of the newly created user.
@@ -67,10 +67,20 @@ The Logic application workflow will receive a HTTP request from onboarding user 
 
     
 3. Postman API Platform
-
+   The Postman API platform will simulate the delivery of the payload using an HTTP request to trigger the Azure Logic App workflow.
+   
    - Open Postman API platform in your browser, login and create a new collection.
    - set the method to Post, and paste the URL from the HTTP request trigger.
    - access the body tab, configure the data type as raw, and enter the sample payload used in creating the JSON schema in the HTTP request trigger.
 
   ![Postman](https://github.com/Enzeiy/Azure-Projects/blob/main/Automated%20Onboarding%20/Images/Postman.png)
+
+4. Workflow Verification
+   This section will be a guide to simulate the automated onboarding workflow using the postman api.
+
+   - On your Azure Logic App workflow, locate the workflow designer blade, click the 'run trigger' on the ribbon.
+   - After running the trigger, on the postman api click 'send' to initiate the delivery of the payload.
+   - review the workflow and check for any errors
+
+   ![VWORK](
 
