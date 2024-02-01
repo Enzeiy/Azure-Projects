@@ -4,7 +4,7 @@ Implementing a cross-regional load-balanced two-tier application infrastructure 
 
 # Architecture
 
-![architecture]()
+![architecture](https://github.com/Enzeiy/Azure-Projects/blob/main/Stronghold/images/Stronghold_archi.png)
 
 # Pre-requisites
   - Microsoft Azure Account and Subscription
