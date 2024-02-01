@@ -4,7 +4,7 @@ Implementing a cross-regional load-balanced two-tier application infrastructure 
 
 # Architecture
 
-![architecture](https://github.com/Enzeiy/Azure-Projects/blob/main/Automated%20Onboarding%20/Images/OnboardingProjectcpng.png)
+![architecture]()
 
 # Pre-requisites
   - Microsoft Azure Account and Subscription
